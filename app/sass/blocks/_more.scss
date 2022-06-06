@@ -1,0 +1,51 @@
+.more_title {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.more_description {
+    margin-top: 30px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .more_title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .more_description {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .more {
+        display: flex;
+        gap: 60px;
+
+        .more_title {
+            flex: 1 0 auto;
+            margin-top: 60px;
+            width: 362px;
+        }
+    }
+
+
+}
+
+
+@media screen and (min-width: 1440px) {
+    .more_outer {
+        width: 80%;
+        margin: 60px auto 0;
+    }
+}
+

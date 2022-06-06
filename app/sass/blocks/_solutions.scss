@@ -1,0 +1,46 @@
+.solutions {
+    position: relative;
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    border-radius: 0px 0px 12px 12px;;
+
+    .homepage_title {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 46px;
+        text-align: center;
+
+        /* Basic/White */
+
+        color: #FFFFFF;
+        margin-top: 130px;
+
+        @media screen and (min-width: 768px) {
+            margin-top: 270px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            margin-top: 250px;
+        }
+    }
+
+    &:before {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 20px;
+        right: 20px;
+        height: 10px;
+        background: #CACADB;
+        border-radius: 0 0 12px 12px;;
+    }
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 40px;
+        right: 40px;
+        height: 10px;
+        background: #E7E7F2;
+        border-radius: 0 0 12px 12px;;
+    }
+}

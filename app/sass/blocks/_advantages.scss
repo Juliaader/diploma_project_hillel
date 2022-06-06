@@ -1,0 +1,111 @@
+.advantages {
+    margin-top: 30px;
+
+
+
+    .advantages_list {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+        position: relative;
+        padding-left: 34px;
+
+
+        .advantages_list-item_title {
+            display: flex;
+            align-items: center;
+
+
+            .advantages_list-item_title_text {
+                margin-left: 8px;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 44px;
+                background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        .advantages_list-item_text {
+            color: $blue;
+            font-size: 16px;
+            line-height: 20px;
+            margin-top: 10px;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 4px;
+            background-color: #E6E6F0;
+            z-index: 1;
+        }
+    }
+}
+
+
+.photo {
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+    color: white;
+
+    img {
+        width: 100%;
+    }
+
+    .photo_text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        /* identical to box height */
+
+        text-align: center;
+        letter-spacing: 13px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+
+        opacity: 0.8;
+        text-shadow: 0 15px 30px rgba(40, 40, 86, 0.8);
+
+    }
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .photo {
+        margin-top: 60px;
+
+        .photo_text {
+            font-size: 46px;
+            line-height: 56px;
+            letter-spacing: 63px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .photo .photo_text {
+        font-size: 86px;
+        line-height: 104px;
+        letter-spacing: 63px;
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .photo .photo_text {
+        font-size: 96px;
+        line-height: 117px;
+    }
+}

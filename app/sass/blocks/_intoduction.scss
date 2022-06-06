@@ -1,0 +1,47 @@
+.introduction_title {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.introduction_description {
+    margin-top: 30px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .introduction_title {
+        margin-top: 60px;
+        font-size: 38px;
+        line-height: 46px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .introduction_outer {
+        display: flex;
+        gap: 30px;
+        margin-top: 60px;
+    }
+    .introduction_outer .advantages {
+        width: 388px;
+        flex: 1 0 auto;
+        margin-top: 0;
+    }
+
+    .introduction_title {
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .introduction_outer {
+        width: 80%;
+        margin: 60px auto 0;
+    }
+}
